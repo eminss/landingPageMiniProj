@@ -6,13 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Landing Page Mini Project</title>
-    <header class="center">
-        <h1>HTML and CSS Landing Page</h1>
-        <h2>Welcome!</h2>
-    </header>
 </head>
-<body>
+<body class="body">
+    
+    <header class="header">
+        <a class="hyperlinkStyle" href="#">Github</a>
+        <a class="hyperlinkStyle" href="#">Portfolio</a>
+        <a class="hyperlinkStyle" href="#">Contact</a>
+    </header>
+    
+    <br><br>
+<section>
+    <h1 class="center">HTML and CSS Landing Page</h1>
+        
+        <h2 class="center">Welcome!</h2>
+    
     <img id=corgiPic src="http://placecorgi.com/500/300" alt="Cute Corgi">
     
+        <p class="center">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    
+</section>
+
+<div class="center">
+    <br><br>
+    <p class="center">Contact us:</p>
+    <label for="name">Name: </label>
+    <input type="text" id="name" name="name" required minlength="4" maxlength="20" size="15"></input>
+    <br><br>
+    <label for="email">Email: </label>
+    <input type="text" id="email" name="email" required minlength="4" maxlength="35" size="15"></input>
+    <br><br>
+    <input type="submit"></input>
+</div>
+    
+    <footer class="footer">
+        
+        <p id="footerText">2022 Corgi Enthusiasts</p>
+   
+    </footer>
 </body>
 </html>
